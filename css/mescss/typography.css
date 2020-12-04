@@ -1,0 +1,37 @@
+/* Mise en place de la police les textes */
+
+p {
+    font-family: "Hind Madurai Regular", sans-serif;
+    font-size: 1.4rem;
+}
+
+/* Mise en place de la police les légendes */
+
+figcaption {
+    font-family: "Hind Madurai Regular", sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Mise en place de la police les titres h1 */
+
+h1{
+    font-family: "Kanit Bold", sans-serif;
+    font-size: 5rem;
+    color: #fff;
+}
+
+/* Mise en place de la police les titres h2 */
+
+h2{
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 5rem;
+    color: #fff;
+}
+
+/* Mise en place de la police les titres h3 */
+
+h3{
+    font-family: "Hind Madurai", sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
