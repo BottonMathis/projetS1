@@ -151,3 +151,93 @@ article {
 article {
     margin-bottom: 4rem;
 }
+
+/* -------------- FOOTER -------------- */
+
+footer {
+    background-color: #344B8F;
+    position: absolute;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.prenom_nom_groupe {
+    color: white;
+}
+
+.prenom_nom_groupe > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+.prenom_nom_groupe > p {
+    margin-bottom: -20px;
+}
+
+.contact > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.contact {
+    padding-top: 20px;
+}
+
+.contact > p > a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.contact > p {
+    margin-bottom: -10px;
+}
+
+.contact > ul > li > a{
+    color: #FAC79B;
+    text-decoration: none;
+    font-family: "Hind Madurai Light", sans-serif;
+    font-size: 1rem;
+}
+
+.MMI > img {
+    position: absolute;
+    top: 16px;
+    left: 313px;
+}
+
+.instagram > img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 187px;
+    left: 214px;
+}
+
+.facebook > img {
+    position: absolute;
+    width:30px;
+    height:30px;
+    top: 196px;
+    left: 273px;
+}
+.youtube > img {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    top: 196px;
+    left: 318px;
+}
+
+.mention_legale > p {
+    color: white;
+    font-family: "Hind Madurai Light", sans-serif;
+    font-size: 0.8rem;
+    padding-top: 20px;
+}
+
+.mention_legale > p > a {
+    color: #FAC79B;
+    font-family: "Hind Madurai Light", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+}

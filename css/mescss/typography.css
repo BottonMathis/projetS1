@@ -9,7 +9,7 @@ p {
 
 figcaption {
     font-family: "Hind Madurai Regular", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* Mise en place de la police les titres h1 */
@@ -24,8 +24,8 @@ h1{
 
 h2{
     font-family: "Hind Madurai", sans-serif;
-    font-size: 5rem;
-    color: #fff;
+    font-size: 2.5rem;
+    color: black;
 }
 
 /* Mise en place de la police les titres h3 */
@@ -33,5 +33,7 @@ h2{
 h3{
     font-family: "Hind Madurai", sans-serif;
     font-size: 2rem;
-    color: #fff;
+    color: #021E73;
 }
+
+
