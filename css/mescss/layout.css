@@ -39,7 +39,7 @@ body > header > img:last-of-type {
 }
 
 body > header > figure > figcaption {
-    margin-top: 38rem;
+    margin-top: 45rem;
     margin-left: -1rem;
     margin-right: -1rem;
     margin-bottom: 4rem;
@@ -62,6 +62,36 @@ article {
 
 /* -------------- MISE EN PAGE DE LA PAGE D'ACCUEIL -------------- */
 
+/* titre */
+
+header {
+    position: relative;
+}
+
+body > header > h1 {
+    font-family: "Kanit", sans-serif;
+    position: absolute;
+    top: 454px;
+    left: 41px;
+    background-color: rgba(2, 30, 115, 0.7);
+    background-size: 53px 100px;
+    font-size: 2.8rem;
+    padding-right: 25px;
+    padding-bottom: 116px;
+    padding-top: 15px;
+    margin-right: -2px;
+    padding-left: 15px;
+}
+
+body > header > h4 {
+    font-family: "Hind Madurai Light", sans-serif;
+    color: white;
+    position: absolute;
+    top: 525px;
+    left: 41px;
+    padding-left: 15px;
+}
+
 .introduction {
     position: relative;
 }
@@ -69,7 +99,7 @@ article {
 .introduction > figure > img {
     display: block;
     position: absolute;
-    top: 64rem;
+    top: 69rem;
     left: 0;
     padding: 1rem;
 }
@@ -80,7 +110,7 @@ article {
     position: absolute;
     background-color: white;
     width: 13rem;
-    top: 75rem;
+    top: 81rem;
     left: 6rem;
     padding: 1rem;
 }
@@ -209,7 +239,7 @@ footer {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 187px;
+    top: 173px;
     left: 214px;
 }
 
@@ -217,14 +247,14 @@ footer {
     position: absolute;
     width:30px;
     height:30px;
-    top: 196px;
+    top: 182px;
     left: 273px;
 }
 .youtube > img {
     position: absolute;
     width: 40px;
     height: 28px;
-    top: 196px;
+    top: 183px;
     left: 318px;
 }
 
