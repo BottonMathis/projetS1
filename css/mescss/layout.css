@@ -60,3 +60,94 @@ article {
     position: relative;
 }
 
+/* -------------- MISE EN PAGE DE LA PAGE D'ACCUEIL -------------- */
+
+.introduction {
+    position: relative;
+}
+
+.introduction > figure > img {
+    display: block;
+    position: absolute;
+    top: 64rem;
+    left: 0;
+    padding: 1rem;
+}
+
+.introduction > p:last-of-type {
+    font-size: 1.2rem;
+    display: block;
+    position: absolute;
+    background-color: white;
+    width: 13rem;
+    top: 75rem;
+    left: 6rem;
+    padding: 1rem;
+}
+
+.vignettes_articles {
+    position: relative;
+}
+
+.introduction > figure > figcaption {
+    padding-top: 32rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+
+.article_1 > h2, .article_2 > h2, .article_3 > h2 {
+    text-decoration: overline;
+    text-decoration-color: #FAC79B;
+    font-size: 1.8rem;
+    color: #021E73;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/* boutons pour les vignettes */
+
+.button {
+    font-size: 1.2rem;
+    background-color: #344B8F;
+    border: none;
+    color: white;
+    padding: 15px;
+    padding-bottom: 30px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 0.3rem;
+}
+
+/* position de vignettes */
+
+.article_1 > a > img {
+    position: absolute;
+    top: 138px;
+    left:289px;
+    border: solid;
+    border-color: white;
+    border-radius: 0.3rem;
+}
+
+.article_2 > a > img {
+    position: absolute;
+    top: 340px;
+    left:289px;
+    border: solid;
+    border-color: white;
+    border-radius: 0.3rem;
+}
+.article_3 > a > img {
+    position: absolute;
+    top: 565px;
+    left:289px;
+    border: solid;
+    border-color: white;
+    border-radius: 0.3rem;
+}
+
+article {
+    margin-bottom: 4rem;
+}
