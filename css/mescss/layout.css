@@ -1,0 +1,62 @@
+/* -------------- Commun à toutes les pages -------------- */
+
+/* Page de couverture */
+
+header {
+    position: relative;
+}
+
+/* image collée en haut */
+body > header > figure > img {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* titre page de couverture */
+body > header > h1 {
+    font-size: 45px;
+}
+
+
+/* logo DATA RUNNER en haut à gauche */
+body > header > img:first-child {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+/* flèche en bas de l'image */
+body > header > img:last-of-type {
+    display: inline;
+    position: absolute;
+    top: 48rem;
+    left: 11rem;
+}
+
+body > header > figure > figcaption {
+    margin-top: 38rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-bottom: 4rem;
+    float: left;
+}
+
+.menu > ul {
+    margin-top: 0;
+}
+
+/* marge pour le contenu */
+body > article {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+article {
+    position: relative;
+}
+
