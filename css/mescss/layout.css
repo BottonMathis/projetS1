@@ -1,10 +1,12 @@
 /* -------------- Commun à toutes les pages -------------- */
 
 /* Page de couverture */
-
-header {
+body > header {
     position: relative;
+    width: 375px;
+    height: 920px;
 }
+
 
 /* image collée en haut */
 body > header > figure > img {
@@ -22,7 +24,7 @@ body > header > h1 {
 
 
 /* logo DATA RUNNER en haut à gauche */
-body > header > img:first-child {
+body > header > a > img:first-child {
     display: inline;
     position: absolute;
     top: 0;
@@ -34,16 +36,15 @@ body > header > img:first-child {
 body > header > img:last-of-type {
     display: inline;
     position: absolute;
-    top: 48rem;
-    left: 11rem;
+    top: 768px;
+    left: 170px;
 }
 
+/* position de la légende de l'image de couverture */
 body > header > figure > figcaption {
-    margin-top: 45rem;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    margin-bottom: 4rem;
-    float: left;
+    position: absolute;
+    top: 850px;
+    left: 4%;
 }
 
 .menu > ul {
@@ -52,23 +53,26 @@ body > header > figure > figcaption {
 
 /* marge pour le contenu */
 body > article {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
+/* article en position relative */
 article {
     position: relative;
 }
 
-/* -------------- MISE EN PAGE DE LA PAGE D'ACCUEIL -------------- */
-
-/* titre */
-
+/* header en position relative */
 header {
     position: relative;
 }
 
-body > header > h1 {
+
+/* -------------- MISE EN PAGE DE LA PAGE D'ACCUEIL -------------- */
+
+
+/* titre */
+.titre_index {
     font-family: "Kanit", sans-serif;
     position: absolute;
     top: 454px;
@@ -83,6 +87,7 @@ body > header > h1 {
     padding-left: 15px;
 }
 
+/* tagline */
 body > header > h4 {
     font-family: "Hind Madurai Light", sans-serif;
     color: white;
@@ -92,39 +97,47 @@ body > header > h4 {
     padding-left: 15px;
 }
 
+/* introduction en position relative + taille */
 .introduction {
     position: relative;
+    height: 815px;
 }
 
+/* position de l'image dans l'introduction */
 .introduction > figure > img {
     display: block;
     position: absolute;
-    top: 69rem;
+    top: 295px;
     left: 0;
     padding: 1rem;
 }
 
+/* mise en exergue */
 .introduction > p:last-of-type {
     font-size: 1.2rem;
     display: block;
     position: absolute;
     background-color: white;
-    width: 13rem;
-    top: 81rem;
-    left: 6rem;
+    width: 208px;
+    top: 482px;
+    left: 96px;
     padding: 1rem;
 }
 
+
+/* l'article vignette en position relative */
 .vignettes_articles {
     position: relative;
 }
 
+/* position de la légende de l'image dans introdution*/
 .introduction > figure > figcaption {
-    padding-top: 32rem;
-    margin-left: -2rem;
-    margin-right: -2rem;
+    position: absolute;
+    top: 785px;
+    left: 4%;
 }
 
+/* titre des article */
 .article_1 > h2, .article_2 > h2, .article_3 > h2 {
     text-decoration: overline;
     text-decoration-color: #FAC79B;
@@ -135,7 +148,6 @@ body > header > h4 {
 }
 
 /* boutons pour les vignettes */
-
 .button {
     font-size: 1.2rem;
     background-color: #344B8F;
@@ -150,8 +162,7 @@ body > header > h4 {
     border-radius: 0.3rem;
 }
 
-/* position de vignettes */
-
+/* position de la vignette de l'article 1 */
 .article_1 > a > img {
     position: absolute;
     top: 138px;
@@ -161,6 +172,7 @@ body > header > h4 {
     border-radius: 0.3rem;
 }
 
+/* position de la vignette de l'article 2 */
 .article_2 > a > img {
     position: absolute;
     top: 340px;
@@ -169,6 +181,8 @@ body > header > h4 {
     border-color: white;
     border-radius: 0.3rem;
 }
+
+/* position de la vignette de l'article 3 */
 .article_3 > a > img {
     position: absolute;
     top: 565px;
@@ -178,12 +192,47 @@ body > header > h4 {
     border-radius: 0.3rem;
 }
 
+/* marge entre l'article et le footer */
 article {
     margin-bottom: 4rem;
 }
 
+/* -------------- MISE EN PAGE DE LA PAGE UN FUTUR ALARMANT -------------- */
+
+/* titre */
+body > header > h1 {
+    font-size: 3rem;
+    padding-left: 1rem;
+    font-family: "Kanit", sans serif;
+}
+
+.carre {
+    position: absolute;
+    left:0;
+    top:0;
+    width:187.5px;
+    height:812px;
+    background:white;
+    opacity: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------- FOOTER -------------- */
 
+/* footer en position relative, couleur du fond et ajustement des padding */
 footer {
     background-color: #344B8F;
     position: absolute;
@@ -191,37 +240,46 @@ footer {
     padding-right: 1rem;
 }
 
+/*couleur blanche du nom, prénom, groupe */
 .prenom_nom_groupe {
     color: white;
 }
 
+/* Pas de soulignement pour le nom, prénom, groupe */
 .prenom_nom_groupe > p > a {
     color: white;
     text-decoration: none;
 }
 
+/* marge pour le nom, prénom, groupe */
 .prenom_nom_groupe > p {
     margin-bottom: -20px;
 }
 
+/* pas de puces et collé au gauche */
 .contact > ul {
     list-style-type: none;
     padding-left: 0;
 }
+
+/* padding pour le contact */
 .contact {
     padding-top: 20px;
 }
 
+/* couleur, taille et pas de soulignement pour le contact */
 .contact > p > a {
     text-decoration: none;
     font-size: 1.4rem;
     color: white;
 }
 
+/* marge pour le contact */
 .contact > p {
     margin-bottom: -10px;
 }
 
+/* couleur, pas de soulignement, typo, taille typo pour les différents contacts */
 .contact > ul > li > a{
     color: #FAC79B;
     text-decoration: none;
@@ -229,12 +287,14 @@ footer {
     font-size: 1rem;
 }
 
-.MMI > img {
+/* position logo mmi */
+.MMI > a > img {
     position: absolute;
     top: 16px;
     left: 313px;
 }
 
+/* position logo instagram */
 .instagram > img {
     position: absolute;
     width: 50px;
@@ -243,6 +303,7 @@ footer {
     left: 214px;
 }
 
+/* position logo facebook */
 .facebook > img {
     position: absolute;
     width:30px;
@@ -250,6 +311,8 @@ footer {
     top: 182px;
     left: 273px;
 }
+
+/* position logo youtube */
 .youtube > img {
     position: absolute;
     width: 40px;
@@ -258,6 +321,7 @@ footer {
     left: 318px;
 }
 
+/* couleur, typo, taille typo, padding pour la mention légale */
 .mention_legale > p {
     color: white;
     font-family: "Hind Madurai Light", sans-serif;
@@ -265,6 +329,7 @@ footer {
     padding-top: 20px;
 }
 
+/* couleur, typo, taille typo, pas de soulignement, padding pour le lien dans la mention légale */
 .mention_legale > p > a {
     color: #FAC79B;
     font-family: "Hind Madurai Light", sans-serif;
