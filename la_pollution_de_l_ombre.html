@@ -20,8 +20,8 @@
         <img src="img/logo_blanc.png" alt="logo DATA RUNNER">
     </a>
 
-    <div class="nav-toggle">
-        <div class="nav-toggle_bar">
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar">
         </div>
     </div>
     <nav class="menu">
@@ -34,12 +34,14 @@
         </ul>
     </nav>
 
-    <h1>LA POLLUTION DE L'OMBRE</h1>
-
+    <div class="titre_un_futur_alarmant">
+    <h1>LA</h1>
+    <h1>POLLUTION</h1>
+    <h1>DE L'OMBRE</h1>
+    </div>
     <img src="img/fleche_vers_le_bas.png" alt="fleche vers le bas">
-
     <figure>
-        <img src="img/image_couverture_article_1.jpg"
+        <img src="img/image_couverture_article_2.jpg"
              alt="image de couverture">
         <figcaption><img src="img/triangle_bleu.png" alt="triangle bleu"> Fumée qui sort d’une cheminée, Unsplash
 
@@ -129,25 +131,37 @@
             Tous ces équipements sont très gourmands en énergie : un simple routeur consomme 10 000 watts (10 kW), un très gros data center frise carrément les 100 millions de watts (100 MW), soit un dixième de la production d’une centrale thermique ! « Un processeur, c’est comme une résistance. Presque toute l’électricité qu’il consomme est dissipée en chaleur, détaille la chercheuse. C’est pourquoi, en plus de consommer de l’énergie pour faire tourner ses serveurs, un data center doit être climatisé afin de préserver l’intégrité des circuits électroniques. »
         </p>
 
+            <figure>
+                <img src="img/image_5_article_2.png"
+                     alt="image de câbles d’un data center">
+                <figcaption><img src="img/triangle_bleu.png" alt="triangle bleu"> Arrière d’un serveur, Google image
 
+                </figcaption>
+            </figure>
+
+        <p>
+            Autre particularité du Web, son « hyperdisponibilité » : toutes les infrastructures sont dimensionnées pour absorber les afflux de données liés aux pics d’utilisation, soit quelques heures par jour à peine, et demeurent sous-utilisées le reste du temps. « Si un routeur fonctionne à 60 % de sa capacité, c’est un maximum, estime Anne-Cécile Orgerie. Même chose pour les data centers, qui sont peu sollicités la nuit. Or, même inactifs, ces équipements sont très énergivores. » Ainsi, un serveur allumé mais inactif va consommer 100 W, contre 200 W au maximum s’il est en plein calcul. La différence entre ces deux états pour le routeur sera de quelques pourcents à peine… Pourtant, personne ne songe à éteindre – au moins en partie – ces équipements aux heures creuses.
+        </p>
             <figure>
                 <img src="img/image_6_article_2.jpg"
                      alt="image de câbles d’un data center">
                 <img src="img/image_7_article_2.jpg"
                      alt="image de câbles d’un data center">
-                <figcaption><img src="img/triangle_bleu.png" alt="triangle bleu"> Câbles d’un data center, Unsplash
+                <figcaption>
+                    <img src="img/triangle_bleu.png" alt="triangle bleu"> Câbles d’un data center, Unsplash
                 </figcaption>
             </figure>
-
+       <img class="rectangle_bleu" src="img/rectangle_bleu.jpg" height="47" width="47" alt="rectangle bleu"/>
         <p>
             « Malgré de nombreuses recherches qui affirment que cela n’affecterait pas la performance du service, les data centers continuent d’être à 100 % de leur capacité jour et nuit, regrette Anne-Cécile Orgerie. Même chose pour les routeurs. » La raison ? Les administrateurs de ces équipements vivent dans la hantise que l’utilisateur puisse souffrir du moindre temps de latence – un décalage de quelques secondes – ou pire, d’une « gigue » : un débit haché qui rendrait son expérience désagréable, notamment en cas de streaming, une pratique en croissance exponentielle.
             Cette « tyrannie » de l’utilisateur se retrouve jusque dans la conception des box Internet qui ne possèdent pas de bouton d’arrêt et fonctionnent jour et nuit. « Il faut une minute trente pour rallumer une box éteinte ; les fournisseurs d’accès estiment que c’est un temps beaucoup trop long pour les utilisateurs impatients que nous sommes devenus », explique Françoise Berthoud. Résultat : les box représentent à elles seules 1 % de la consommation électrique française.  "
+
         </p>
 
         <!-- source -->
-        <p>
-            Source : https://lejournal.cnrs.fr/articles/numerique-le-grand-gachis-energetique
-        </p>
+        <a href="https://lejournal.cnrs.fr/articles/numerique-le-grand-gachis-energetique">
+            Source
+        </a>
     </div>
 
         <div class="le_cloud">
@@ -159,7 +173,7 @@
             </p>
 
             <figure>
-                <img src="img/image_8_article_2.jpg"
+                <img src="img/image_9_article_2.jpg"
                      alt="image d’un data center">
                 <figcaption><img src="img/triangle_bleu.png" alt="triangle bleu"> Devant d’un data center, Unsplash
                 </figcaption>
@@ -174,14 +188,10 @@
             <p>
                 Ces chiffres qui sont déjà alarmant, et ne cessent d’augmenter au vu de <strong> l’évolution d’internet </strong> . Ainsi, si rien n’est fait, en 2025, le numérique polluera autant que le trafic automobile mondial.
             </p>
-        </div>
             <div class="boutons_navigation">
-                <p>
-                    <a href="un_futur_alarmant.html">Article précédent</a>
-                </p>
-                <p>
-                    <a href="les_cles_d_un_changement.html">Article suivant</a>
-                </p>
+                <a href="un_futur_alarmant.html">Article précédent</a>
+                <a href="les_cles_d_un_changement.html">Article suivant</a>
+            </div>
         </div>
 
 </article>
@@ -203,7 +213,9 @@
             </div>
 
             <div class="MMI">
-                <img src="img/logo_MMI_blanc.png" alt="logo MMI">
+                <a href="http://mmimontbeliard.com/">
+                    <img src="img/logo_MMI_blanc.png" alt="logo MMI">
+                </a>
             </div>
 
             <div class="contact">
