@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/lib/normalize.css"/>
     <link rel="stylesheet" href="css/mescss/layout.css"/>
     <link rel="stylesheet" href="css/mescss/typography.css"/>
+    <link rel="stylesheet" href="css/mescss/menu.css"/>
     <title>Accueil</title>
 </head>
 <body>
@@ -17,9 +18,8 @@
     <a href="index.html">
         <img src="img/logo_blanc.png" alt="logo DATA RUNNER">
     </a>
-
-    <div class="nav-toggle">
-        <div class="nav-toggle_bar">
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar">
         </div>
     </div>
     <nav class="menu">
@@ -31,7 +31,6 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-
     <h1 class="titre_index">DATA RUNNER</h1>
     <h4>Une course pour sauver l’environnement</h4>
 
