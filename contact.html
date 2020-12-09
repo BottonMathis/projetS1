@@ -12,13 +12,15 @@
     <link rel="stylesheet" href="css/mescss/menu.css"/>
     <title>Page contact</title>
 </head>
-<body>
+<body class="page-contact" >
 
 <header>
 
-    <img src="img/logo_blanc.png" alt="logo DATA RUNNER">
-    <div class="nav-toggle">
-        <div class="nav-toggle_bar">
+    <a href="index.html">
+        <img src="img/logo_blanc.png" alt="logo DATA RUNNER">
+    </a>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar">
         </div>
     </div>
     <nav class="menu">
@@ -36,27 +38,30 @@
 <main>
 
     <div class="contact">
+            <h3>
+             Contact
+            </h3>
+            <div>
 
-        <h2>Contact</h2>
-        <p>
-            PRÉNOM
-        </p>
-        <p>
-            NOM
-        </p>
-        <p>
-            EMAIL
-        </p>
-        <p>
-            COMMENTAIRES
-        </p>
+                <label for="first_name">PRÉNOM</label>
+                <input type="text" id="first_name" name="user_first_name">
+            </div>
+             <div>
 
-        <!-- Bouton pour envoyer le commentaire-->
-
-        <p>
-            Envoyer
-        </p>
-
+                 <label for="name">NOM</label>
+                 <input type="text" id="name" name="user_name">
+             </div>
+            <div>
+                <label for="mail">EMAIL</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">COMMETAIRES</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button_envoyer">
+            <button type="submit">Envoyer le message</button>
+            </div>
     </div>
 
     <div class="a-propos">
@@ -75,51 +80,50 @@
             Voici d'autres projets du même thème, réalisés par des étudiants en MMI :
         </p>
 
-        <div class="centre">
-            <ul>
-                <li>
-                    <a href="#"> Cin&Science </a>
-                </li>
-                <li>
-                    <a href="#"> Data code </a>
-                </li>
-                <li>
-                    <a href="#"> Hyperconnexion </a>
-                </li>
-                <li>
-                    <a href="#"> Polluting Girl </a>
-                </li>
-                <li>
-                    <a href="#"> Black Data </a>
-                </li>
-                <li>
-                    <a href="#"> Pollution cachée des data centers </a>
-                </li>
-                <li>
-                    <a href="#"> WattOR </a>
-                </li>
-                <li>
-                    <a href="#"> Centhack </a>
-                </li>
-                <li>
-                    <a href="#"> Pollution cachée </a>
-                </li>
-                <li>
-                    <a href="#"> The Shadow of sociability </a>
-                </li>
-                <li>
-                    <a href="#"> South Park dénonce amazon </a>
-                </li>
-            </ul>
+        <div class="autres_projets-a1">
+            <div>
+                <a href="#">Cin&Science</a>
+            </div>
+            <div>
+                <a href="#">Data code</a>
+            </div>
+            <div>
+                <a href="#">Hyperconnexion</a>
+            </div>
+            <div>
+                <a href="#">Polluting Girl</a>
+            </div>
+            <div>
+                <a href="#">Pollution cachée des data centers</a>
+            </div>
+            <div>
+                <a href="#">WattOR</a>
+            </div>
+            <div>
+                <a href="#">Centhack</a>
+            </div>
+            <div>
+                <a href="#">Pollution cachée</a>
+            </div>
+            <div>
+                <a href="#">The Shadow of sociability</a>
+            </div>
+            <div>
+                <a href="#">South Park dénonce amazon</a>
+            </div>
+
+            <div class="bouton_retour">
+                <!-- Bouton pour retourner à la page précédente-->
+                <a href="javascript:history.go(-1)">Retour</a>
+            </div>
+
         </div>
 
-        <!-- Bouton pour retourner à la page précédente-->
 
-        <p>
-            retour
-        </p>
 
     </div>
+
+
 
 </main>
 
@@ -140,7 +144,9 @@
             </div>
 
             <div class="MMI">
-                <img src="img/logo_MMI_blanc.png" alt="logo MMI">
+                <a href="http://mmimontbeliard.com/">
+                    <img src="img/logo_MMI_blanc.png" alt="logo MMI">
+                </a>
             </div>
 
             <div class="contact">
