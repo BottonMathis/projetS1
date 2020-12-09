@@ -4,7 +4,7 @@
 body > header {
     position: relative;
     width: 375px;
-    height: 920px;
+    height: 900px;
 }
 
 
@@ -26,9 +26,8 @@ body > header > h1 {
 /* logo DATA RUNNER en haut à gauche */
 body > header > a > img:first-child {
     display: inline;
-    position: absolute;
-    top: 40px;
-    left: 15px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 /* flèche en bas de l'image */
@@ -67,7 +66,7 @@ header {
 }
 
 body {
-    margin-top: -16px;
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
 }
@@ -99,7 +98,7 @@ body > header > h4 {
     position: absolute;
     top: 525px;
     left: 41px;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 /* introduction en position relative + taille */
@@ -213,7 +212,7 @@ article {
 /* titre */
 .titre_un_futur_alarmant > h1 {
     font-size: 3rem;
-    padding-left: 15px;
+    padding-left: 30px;
     font-family: "Kanit", sans serif;
 }
 
@@ -423,12 +422,12 @@ li.carousel-items {
 
 
 
-/* -------------- MISE EN PAGE DE LA PAGE LES CLEES D'UN CHANGEMENT -------------- */
+/* -------------- MISE EN PAGE DE LA PAGE LA POLLUTION DE L'OMBRE -------------- */
 
 /* titre */
 .titre_ > h1 {
     font-size: 3rem;
-    padding-left: 15px;
+    padding-left: 30px;
     font-family: "Kanit", sans serif;
 }
 
@@ -603,7 +602,167 @@ body > article > div.boutons_navigation {
 
 
 
+/* -------------- MISE EN PAGE DE LA PAGE LA POLLUTION DE L'OMBRE -------------- */
 
+
+/* titre */
+.titre_les_cles_d_un_changement > h1 {
+    font-size: 3rem;
+    padding-left: 30px;
+    font-family: "Kanit", sans serif;
+}
+
+/* position du titre */
+.titre_les_cles_d_un_changement > h1:first-child {
+    margin:0;
+    padding-top: 160px;
+}
+
+/* marge entre l'image et le texte */
+.le_free_cooling > figure:nth-child(3) > img {
+    margin-top: 30px;
+}
+
+/* positionnement de la légende */
+.le_free_cooling > figure:nth-child(3) > figcaption {
+    padding-top: 50px;
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-bottom: 50px;
+}
+
+/* boutons pour en savoir plus */
+.le_free_cooling > a {
+    font-family: "Hind Madurai Regular", sans-serif;
+    font-size: 1.2rem;
+    background-color: #344B8F;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 22px 2px;
+    border-radius: 0.2rem;
+}
+
+/* div le free cooling en position relative */
+.le_free_cooling > figure {
+ position: relative;
+}
+
+/* images en position absolute */
+.le_free_cooling > figure:nth-child(7) > img,
+.le_free_cooling > figure:nth-child(8) > img,
+.le_free_cooling > figure:nth-child(9) > img {
+    position: absolute;
+}
+
+/* positionnement des images */
+.le_free_cooling > figure:nth-child(7) > img {
+    top: 20px;
+    left: -40px;
+}
+
+.le_free_cooling > figure:nth-child(8) > img {
+    top: -190px;
+    left: -40px;
+}
+
+.le_free_cooling > figure:nth-child(9) > img {
+    top: -242px;
+    left: 150px;
+}
+
+/* positionnement des légendes */
+.le_free_cooling > figure:nth-child(7) > figcaption {
+    padding-top: 327px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+.le_free_cooling > figure:nth-child(8) > figcaption,
+.le_free_cooling > figure:nth-child(9) > figcaption {
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+/* marge entre les légendes et le texte */
+.le_free_cooling > p:nth-child(10) {
+    margin-top: 50px;
+}
+
+/* bouton voir */
+.recycler_la_chaleur > p:nth-child(3) > a {
+    font-family: "Hind Madurai Regular", sans-serif;
+    font-size: 1.2rem;
+    background-color: #344B8F;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 22px 2px;
+    border-radius: 0.2rem;
+}
+
+/* bloc le role de l'utilisateur en position relative */
+.le_role_de_l_utilisateur {
+    position: relative;
+}
+
+/* les images en position absolute */
+.le_role_de_l_utilisateur > figure:nth-child(3) > img,
+.le_role_de_l_utilisateur > figure:nth-child(4) > img,
+.le_role_de_l_utilisateur > figure:nth-child(5) > img {
+    position: absolute;
+}
+
+/* positionnement des images */
+.le_role_de_l_utilisateur > figure:nth-child(3) > img {
+    top: 280px;
+    left: 195px;
+}
+
+.le_role_de_l_utilisateur > figure:nth-child(4) > img {
+    z-index: -1;
+    top: 365px;
+    left: 96px;
+}
+
+.le_role_de_l_utilisateur > figure:nth-child(5) > img {
+    top: 401px;
+    left: 35px;
+}
+
+/* positionnement des légendes */
+.le_role_de_l_utilisateur > figure:nth-child(3) > figcaption {
+    padding-top: 280px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+.le_role_de_l_utilisateur > figure:nth-child(4) > figcaption,
+.le_role_de_l_utilisateur > figure:nth-child(5) > figcaption {
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+/* bouton de la liste d'actions à faire */
+.le_role_de_l_utilisateur > p:nth-child(10) > a {
+    font-family: "Hind Madurai Regular", sans-serif;
+    font-size: 1.2rem;
+    background-color: #344B8F;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    margin: 22px 2px;
+    border-radius: 0.2rem;
+}
 
 
 /* -------------- MISE EN PAGE DE LA PAGE CONTACT -------------- */
@@ -795,14 +954,14 @@ body > main > div.autres_projets > div > div.bouton_retour > a{
 
 
 
-    /* -------------- FOOTER -------------- */
+/* -------------- FOOTER -------------- */
 
 /* footer en position relative, couleur du fond et ajustement des padding */
 footer {
     background-color: #344B8F;
     position: absolute;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*couleur blanche du nom, prénom, groupe */
