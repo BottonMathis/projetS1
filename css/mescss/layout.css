@@ -116,6 +116,14 @@ body > header > h4 {
     padding: 1rem;
 }
 
+/* position du rectangle orange */
+.rectangle_orange {
+    position: absolute;
+    top: 344px;
+    left: 0;
+    z-index: 1;
+}
+
 /* mise en exergue */
 .introduction > p:last-of-type {
     font-size: 1.2rem;
@@ -764,6 +772,12 @@ body > article > div.boutons_navigation {
     border-radius: 0.2rem;
 }
 
+/* video interview */
+
+.interview > video {
+    margin-top: 20px;
+}
+
 
 /* -------------- MISE EN PAGE DE LA PAGE CONTACT -------------- */
 
@@ -814,12 +828,17 @@ body.page-contact > header > img {
 button, input, optgroup, select, textarea {
     font-family: inherit;
     font-size: 100%;
-    line-height: 1.15;
+    line-height: 1.20;
     margin: 0;
     width: 250px;
     display: block;
-    margin-top: 10px;
+    margin-top: 17px;
     margin-bottom: 10px;
+}
+
+/* zone de texte plus grande pour le message */
+#msg {
+    line-height: 2;
 }
 
 /* police et décoration des différents champs */
